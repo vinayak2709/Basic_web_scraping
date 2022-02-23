@@ -73,6 +73,7 @@ for url in df2["URL"]:
     data_list.append(scrp_data)
     number_list.append(number)
     
+    """ remove this condition after test"""
     if number==3:
         break
    
